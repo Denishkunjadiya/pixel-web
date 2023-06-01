@@ -1,0 +1,295 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+:link{
+    text-decoration: none;
+    background-color: #7fb6ce;
+}
+
+/* ------------------------------- Users End ---------------------------------- */
+
+.home-top{
+    background-color: #39485c;
+}
+.home-top h2{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 30px 0px;
+    font-size: 30px;
+}
+
+.main-bars{
+    display: flex;
+    margin: 20px;
+}
+.side-bar{
+    width: 20%;
+    height: 100vh;
+    background-color: #2e9cca;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.side-bar span{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.side-bar p{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #7fb6ce;
+}
+
+/* .side-bar .review-active{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #7fb6ce;
+} */
+
+.main-bars .users-section{
+    width: 80%;
+}
+
+
+
+/* ------------------------------- Users End ---------------------------------- */
+
+
+
+/* .showdata{
+    background-color: #a6afe7;
+} */
+
+.tbl-data{
+    border: 2px solid #353e74;
+    border-radius: 10px;
+    /* width: 800px; */
+}
+
+.tbl-data .user-action-col{
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.tbl-data thead tr th{
+    background-color: #a6afe7;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.tbl-data tbody tr th{
+    background-color: #6272d8;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.tbl-data tr td{
+    background-color: rgb(175, 193, 199);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.tbl-data tbody tr td button{
+    padding: 7px 23px;
+    margin: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px solid;
+}
+.tbl-data .btn-edit{
+    background-color: rgb(0, 139, 0);
+}
+
+.tbl-data .btn-delete{
+    background-color: rgb(225, 0, 0);
+}
+
+.tbl-data .btn-view{
+    background-color: #2c76d2;
+}
+
+/* -------------------------------- Review Start --------------------------- */
+.Reviews-container{
+    background-color: #2e9cca;
+    margin: 30px;
+    padding: 5px 5px 5px 30px;
+    border-radius: 10px;
+    border-left: 3px solid red;
+}
+
+
+
+
+/* -------------------------------- Review End --------------------------- */
+
+
+/* -------------------------------- Adevertising Start --------------------------- */
+
+.Adevertising-container{
+    background-color: #296482;
+    margin: 30px;
+    padding: 5px 5px 5px 30px;
+    border-radius: 10px;
+    border-bottom: 3px solid #2f77a3;
+    border-bottom: 4px solid #39485c;
+}
+.Adevertising-container .Adevertising-brndname-nm{
+    background-color: #aaabbb;
+    padding: 5px 20px 5px 10px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+}
+
+.Adevertising-container .Adevertising-inner-top{
+    display: flex;
+}
+.Adevertising-container .Adevertising-inner-top .Adevertising-imageby p{
+    padding: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    color: #fff;
+    border-bottom: 2px solid rgb(0, 129, 180);
+}
+
+.Adevertising-container .Adevertising-inner-bottom{
+    color: #aaabbb;
+    font-size: 19px;
+}
+.Adevertising-container .Adevertising-inner-bottom i{
+    font-size: 25px;
+    color: #2e9cca;
+}
+
+
+
+
+/* -------------------------------- Adevertising End --------------------------- */
+
+
+/*
+import Reviews from './Component/Reviews';
+import ManageUsers from './Component/ManageUsers';
+import { BrowserRouter , Switch , Route } from 'react-router-dom';
+
+
+<BrowserRouter>
+    <Switch>
+      <Route path='/' exact component={Home} ></Route>
+      <Route path='/ManageUsers' exact component={ManageUsers} ></Route>
+      <Route path='/Reviews' exact component={Reviews} ></Route>
+    </Switch>
+    </BrowserRouter>
+
+
+
+
+    <p> R e v i e w s </p>
+            <p> A d e v e r t i s e m e n t <br></br> R e q u e s t s </p>
+
+*/
+
+/* -------------------------------- Admin Login Start --------------------------- */
+
+.body-back{
+    background-color: #2c76d2;
+}
+
+.admin-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    height: 57vh;
+    display: flex;
+    box-shadow: 2px 2px 17px 5px #39485c;
+  }
+  
+  .admin-container .left-col{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+  }
+  .left-col .left-col-content{
+    margin-left: 50px;
+  }
+  .left-col .left-col-content .left-top{
+    display: inline-flex;
+    width: 80%;
+    margin-top: 40px;
+    align-items: center;
+    color: #c6c6c6;
+  }
+  .left-col-content .left-top .left-top-admin{
+    font-size: 30px;
+  }
+.left-top .left-col-icon{
+    position: absolute;
+    font-size: 20px;
+    right: 52%;
+  }
+  .left-top .left-col-icon span{
+    border: 1px solid rgb(204, 204, 204);
+    margin: 6px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  .left-col-form{
+    margin-top: 50px;
+    /* background-color: #2e9cca; */
+  }
+  .left-col-form .form-group-1 .label{
+    color: #2e9cca;
+  }
+  .left-col-form .form-group-1 input{
+    background-color: #e0e0e0;
+    width: 370px;
+    padding: 10px 13px;
+    font-size:19px;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .left-col-form .form-group-1 input::placeholder{
+    color: #c6c6c6;
+  }
+  .left-col-form .log-btn button{
+    width: 320px;
+    background-color: rgb(0, 129, 180);
+    padding: 10px 13px;
+    font-size:27px;
+    border: 0px solid;
+    border-radius: 28px;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  .left-col-form .bottom-txt{
+    color: #c6c6c6;
+    position: absolute;
+    left: 28%;
+  }
+  
+  .admin-container .right-col{
+    background-color: rgb(0, 129, 180);
+    width: 50%;
+  }
+  
+  .right-col .right-col-content{
+    margin-top: 30%;
+  }
+
+/* -------------------------------- Admin Login End --------------------------- */
+
+
